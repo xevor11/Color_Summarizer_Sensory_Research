@@ -27,7 +27,7 @@ The summarizer also reports the breakdown of colors within each cluster, based o
 
 
 ### The image used in this example:
-![](ColoredPDF.jpg)
+![](Colored%20PDF.jpg)
 
 ### Image Cluster Partitions
 Each pixel in the image is assigned to one of five groups based on the RGB value. These are called the **Cluster Partitions**. For each cluster partition, we turn hide the pixels of other partitions and reconstruct the image using only the pixel of the specific partition.
