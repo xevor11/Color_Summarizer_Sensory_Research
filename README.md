@@ -19,22 +19,20 @@ The summarizer also reports the breakdown of colors within each cluster, based o
 * Create the image cluster partitions
 * Present the data in a tidy HTML table
     
-
-
 ### Issues:
 > * HTML table does not load properly on Jupyter Notebook viewed through Github (To be fixed)
 > * Images with less than 5 distinct colors will cause errors in K-Means Clustering
 
 
 ### The image used in this example:
-![image](./Downloads/ColoredPDF.png)
+![ColoredPDF](https://user-images.githubusercontent.com/74680679/186811605-e892f0ce-69ce-4720-ac88-ce5e33c38d5a.jpg)
 
 ### Image Cluster Partitions
 Each pixel in the image is assigned to one of five groups based on the RGB value. These are called the **Cluster Partitions**. For each cluster partition, we turn hide the pixels of other partitions and reconstruct the image using only the pixel of the specific partition.
 
 The border around each cluster partition represents the average color of the partition. This is calculated as the average RGB values of the partition.
+![partition](https://user-images.githubusercontent.com/74680679/186811867-7d570ff6-4cd6-4473-8f0d-5b934ac6bba6.png)
 
-![](Figures/Cluster%20Partitions.png)
 
 ### Cluster Breakdown
 Next, we investigate the specifics of the cluster partitions. The cluster bar represents the proportion of pixels from the image that are in each cluster (**Pixels**)
@@ -42,6 +40,8 @@ Next, we investigate the specifics of the cluster partitions. The cluster bar re
 In the table below, we report the average color of each cluster via its **Common Color Name**, **Hex code**, **RGB value**, and **HSV value**.
 
 We also list the unique color name of each individual pixel in the partitions (**Tags**)
+
+![image](https://user-images.githubusercontent.com/74680679/186812447-9468455b-d964-41cc-b414-6f8229d7719a.png)
 
 <br>
 
