@@ -7,8 +7,7 @@ The average color of each cluster will be reported via its **Common Color Name**
 
 The summarizer also reports the breakdown of colors within each cluster, based on the nearest **Common Color Name** from a pixel's RGB value
 
-> ## [Notebook](https://nbviewer.jupyter.org/github/Vtewari2311/Color_Summarizer_Sensory_Research)
-/blob/master/Color_Summarizer.ipynb)
+> ## [Notebook](https://nbviewer.jupyter.org/github/Vtewari2311/Color_Summarizer_Sensory_Research/blob/master/Color_Summarizer.ipynb)
 
 ### Steps Taken:
 * Defining all functions used prior to beginning
