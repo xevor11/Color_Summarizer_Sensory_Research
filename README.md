@@ -7,7 +7,8 @@ The average color of each cluster will be reported via its **Common Color Name**
 
 The summarizer also reports the breakdown of colors within each cluster, based on the nearest **Common Color Name** from a pixel's RGB value
 
-> ## [Skip to the Notebook](https://nbviewer.jupyter.org/github/Bashkeel/Pentachromacy/blob/master/A%20Pigment%20Of%20Your%20Imagination.ipynb)
+> ## [Skip to the Notebook](https://nbviewer.jupyter.org/github/Vtewari2311/Color_Summarizer_Sensory_Research
+/blob/master/Color_Summarizer.ipynb)
 
 ### Steps Taken:
 * Defining all functions used prior to beginning
@@ -16,8 +17,6 @@ The summarizer also reports the breakdown of colors within each cluster, based o
 * Obtain the names of all the colors associated with the pixel clusters
 * Find the average color in each cluster using the mean RGB value
 * Create the image cluster partitions
-    * Create the cluster masks 
-    * Plot 5 replicates of the original image with the cluster masks
 * Present the data in a tidy HTML table
     
 
@@ -28,7 +27,7 @@ The summarizer also reports the breakdown of colors within each cluster, based o
 
 
 ### The image used in this example:
-![](Birdy%20Nam%20Nam.jpg)
+![](ColoredPDF.jpg)
 
 ### Image Cluster Partitions
 Each pixel in the image is assigned to one of five groups based on the RGB value. These are called the **Cluster Partitions**. For each cluster partition, we turn hide the pixels of other partitions and reconstruct the image using only the pixel of the specific partition.
@@ -43,9 +42,6 @@ Next, we investigate the specifics of the cluster partitions. The cluster bar re
 In the table below, we report the average color of each cluster via its **Common Color Name**, **Hex code**, **RGB value**, and **HSV value**.
 
 We also list the unique color name of each individual pixel in the partitions (**Tags**)
-
-![](Figures/Cluster%20Bar.png)
-![](Figures/Cluster%20Table.png)
 
 <br>
 
